@@ -16,6 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>The lawyer</title>
+        <meta name="description" content="The lawyer with AI" />
+        <script async type="text/javascript" src="/js/newrelic.js" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
